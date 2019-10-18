@@ -1,0 +1,19 @@
+uuid: a8585b27-e5ee-4323-b041-1310ba42b1b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_store_name
+    - node.type.store_locations
+id: node.store_locations.field_store_name
+field_name: field_store_name
+entity_type: node
+bundle: store_locations
+label: 'Store Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
